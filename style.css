@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a9dff0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-qr img{
+    height: 250px;
+    border-radius: 35px;
+    margin-top: 20px;
+}
+.box-text{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box-text p{
+    margin-top: 8px;
+}
